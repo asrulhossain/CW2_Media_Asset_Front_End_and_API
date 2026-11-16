@@ -1,0 +1,5052 @@
+[
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f8"
+        },
+        "name": "User 1",
+        "email": "user1@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Admin",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-05-18",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1658.39,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "RAID_01",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".wav",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-02 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f9"
+        },
+        "name": "User 2",
+        "email": "user2@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Admin",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2024-11-13",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 978.95,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "Shuttle_Drive_B",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".r3d",
+                ".mxf",
+                ".mov",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-22 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084fa"
+        },
+        "name": "User 3",
+        "email": "user3@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Admin",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-03-31",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1304.66,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mov",
+                ".mp4",
+                ".braw"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-01 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-24 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084fb"
+        },
+        "name": "User 4",
+        "email": "user4@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-02-20",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 281.42,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mp4",
+                ".braw",
+                ".r3d",
+                ".wav"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-27 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-21 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084fc"
+        },
+        "name": "User 5",
+        "email": "user5@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2024-12-30",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 459.24,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".braw",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-23 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084fd"
+        },
+        "name": "User 6",
+        "email": "user6@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-03-19",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 314.65,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mp4",
+                ".wav"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-28 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084fe"
+        },
+        "name": "User 7",
+        "email": "user7@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-07-18",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 70.03,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".mov",
+                ".wav",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-15 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-10 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-11 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ff"
+        },
+        "name": "User 8",
+        "email": "user8@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-05-03",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 227.23,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".mxf",
+                ".mov",
+                ".r3d",
+                ".wav"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908500"
+        },
+        "name": "User 9",
+        "email": "user9@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-10-21",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 84.39,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".wav",
+                ".r3d",
+                ".mov",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908501"
+        },
+        "name": "User 10",
+        "email": "user10@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-01-07",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 778.5,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "RAID_01",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".mxf",
+                ".mov"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-12 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908502"
+        },
+        "name": "User 11",
+        "email": "user11@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-02-05",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 984.76,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "SSD_Vault_A",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".braw",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-02 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-10 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908503"
+        },
+        "name": "User 12",
+        "email": "user12@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-03-04",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 584.77,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".wav",
+                ".braw",
+                ".mxf",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-01 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908504"
+        },
+        "name": "User 13",
+        "email": "user13@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-01-01",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 191.25,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "Cloud_Cold_Storage",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".mp4",
+                ".mov",
+                ".r3d",
+                ".braw"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-19 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908505"
+        },
+        "name": "User 14",
+        "email": "user14@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-08-05",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 265.58,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".r3d",
+                ".wav"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-12 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908506"
+        },
+        "name": "User 15",
+        "email": "user15@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-10-25",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 243.66,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "RAID_01",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mp4",
+                ".r3d",
+                ".mov"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-04 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908507"
+        },
+        "name": "User 16",
+        "email": "user16@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-09-25",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 134.21,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "RAID_01",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mov",
+                ".mp4",
+                ".wav",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-27 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908508"
+        },
+        "name": "User 17",
+        "email": "user17@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-07-24",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 48.98,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mov",
+                ".braw",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-19 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-28 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-13 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908509"
+        },
+        "name": "User 18",
+        "email": "user18@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-09-01",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 159.21,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".mov",
+                ".wav",
+                ".r3d",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-08 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-13 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-07 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090850a"
+        },
+        "name": "User 19",
+        "email": "user19@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-03-16",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 218.91,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "SSD_Vault_A",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mov",
+                ".mxf",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-16 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-15 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090850b"
+        },
+        "name": "User 20",
+        "email": "user20@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2024-12-26",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 566.27,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "NAS_Archive",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".r3d",
+                ".wav",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-04 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090850c"
+        },
+        "name": "User 21",
+        "email": "user21@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-04-07",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 78.03,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".braw",
+                ".r3d",
+                ".mov"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-19 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-11 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090850d"
+        },
+        "name": "User 22",
+        "email": "user22@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2024-11-21",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 2137.56,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "Cloud_Cold_Storage",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".mxf",
+                ".wav",
+                ".r3d",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-26 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-13 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090850e"
+        },
+        "name": "User 23",
+        "email": "user23@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2024-12-16",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 2127.53,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mov",
+                ".mp4",
+                ".braw"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-17 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-02 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090850f"
+        },
+        "name": "User 24",
+        "email": "user24@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-09-29",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 475.09,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".mxf",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-04 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908510"
+        },
+        "name": "User 25",
+        "email": "user25@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-01-27",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 451.97,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".r3d",
+                ".braw",
+                ".mov",
+                ".wav"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-09-29 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-24 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908511"
+        },
+        "name": "User 26",
+        "email": "user26@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-07-11",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1245.24,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "NAS_Archive",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mov",
+                ".mp4",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-08 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908512"
+        },
+        "name": "User 27",
+        "email": "user27@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-08-12",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 104.13,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mov",
+                ".braw",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-09 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-05 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908513"
+        },
+        "name": "User 28",
+        "email": "user28@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-10-15",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1077.32,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mov",
+                ".mp4",
+                ".r3d",
+                ".braw"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-09 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-09-30 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908514"
+        },
+        "name": "User 29",
+        "email": "user29@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-02-20",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 141.8,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mxf",
+                ".mov"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-26 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908515"
+        },
+        "name": "User 30",
+        "email": "user30@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-06-19",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 852.09,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".mov",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-06 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-22 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-21 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908516"
+        },
+        "name": "User 31",
+        "email": "user31@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-07-10",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1986.04,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".mxf",
+                ".r3d",
+                ".wav",
+                ".braw"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-01 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-11 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908517"
+        },
+        "name": "User 32",
+        "email": "user32@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-05-08",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 504.1,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "NAS_Archive",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".wav",
+                ".mxf",
+                ".r3d",
+                ".braw"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-05 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908518"
+        },
+        "name": "User 33",
+        "email": "user33@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-06-23",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 533.82,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "NAS_Archive",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".mov",
+                ".mp4",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908519"
+        },
+        "name": "User 34",
+        "email": "user34@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-06-14",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1685.22,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".r3d",
+                ".wav"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-17 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090851a"
+        },
+        "name": "User 35",
+        "email": "user35@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-08-08",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1623.82,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mp4",
+                ".r3d",
+                ".mov"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-17 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090851b"
+        },
+        "name": "User 36",
+        "email": "user36@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2024-11-16",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 245.78,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "SSD_Vault_A",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".r3d",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-07 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090851c"
+        },
+        "name": "User 37",
+        "email": "user37@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-08-22",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 201.11,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".braw",
+                ".mov"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-24 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090851d"
+        },
+        "name": "User 38",
+        "email": "user38@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-08-09",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 533.24,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".mxf",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-28 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-27 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-22 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090851e"
+        },
+        "name": "User 39",
+        "email": "user39@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-01-02",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 260.74,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mov",
+                ".braw",
+                ".wav",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-01 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-28 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090851f"
+        },
+        "name": "User 40",
+        "email": "user40@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-04-19",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 2072.23,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "RAID_01",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".r3d",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-21 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-12 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908520"
+        },
+        "name": "User 41",
+        "email": "user41@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2024-12-17",
+            "is_active": false
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 186.53,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "RAID_01",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mxf",
+                ".wav"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-13 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-13 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908521"
+        },
+        "name": "User 42",
+        "email": "user42@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-03-03",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 157.46,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "NAS_Archive",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".braw",
+                ".mov"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-04 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-15 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-17 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908522"
+        },
+        "name": "User 43",
+        "email": "user43@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-10-09",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 419.01,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".wav",
+                ".mov",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-28 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908523"
+        },
+        "name": "User 44",
+        "email": "user44@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-05-04",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 740.11,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "Shuttle_Drive_B",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".r3d",
+                ".mov"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-11 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908524"
+        },
+        "name": "User 45",
+        "email": "user45@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-05-17",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 2442.82,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".r3d",
+                ".mov",
+                ".wav"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-14 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908525"
+        },
+        "name": "User 46",
+        "email": "user46@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2024-11-02",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 150.26,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".wav",
+                ".mxf",
+                ".braw"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-26 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-10 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908526"
+        },
+        "name": "User 47",
+        "email": "user47@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-07-01",
+            "is_active": false
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 78.17,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "Cloud_Cold_Storage",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mp4",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-09-29 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-07 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908527"
+        },
+        "name": "User 48",
+        "email": "user48@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-02-13",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 647.17,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "Shuttle_Drive_B",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mp4",
+                ".braw",
+                ".r3d",
+                ".mov"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908528"
+        },
+        "name": "User 49",
+        "email": "user49@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-05-01",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 241.54,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".braw",
+                ".r3d",
+                ".mov",
+                ".wav"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-09 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908529"
+        },
+        "name": "User 50",
+        "email": "user50@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-06-08",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 888.88,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".r3d",
+                ".mov"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-17 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090852a"
+        },
+        "name": "User 51",
+        "email": "user51@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2024-11-13",
+            "is_active": false
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 832.32,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "SSD_Vault_A",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".wav",
+                ".mp4",
+                ".braw"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-09-29 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-02 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090852b"
+        },
+        "name": "User 52",
+        "email": "user52@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-09-12",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 2428.76,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".wav",
+                ".mxf",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-12 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090852c"
+        },
+        "name": "User 53",
+        "email": "user53@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-09-22",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 249.8,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "RAID_01",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".r3d",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-09 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090852d"
+        },
+        "name": "User 54",
+        "email": "user54@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2024-12-20",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 878.99,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".mxf",
+                ".braw"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-28 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-21 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-17 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090852e"
+        },
+        "name": "User 55",
+        "email": "user55@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-10-09",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 161.02,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mp4",
+                ".mxf",
+                ".mov",
+                ".wav"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-06 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-26 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-02 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090852f"
+        },
+        "name": "User 56",
+        "email": "user56@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-07-21",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 973.53,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".r3d",
+                ".mp4",
+                ".wav",
+                ".braw"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-22 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-04 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908530"
+        },
+        "name": "User 57",
+        "email": "user57@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-03-16",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1330.18,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".wav",
+                ".r3d",
+                ".mov"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-07 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908531"
+        },
+        "name": "User 58",
+        "email": "user58@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-09-05",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 363.0,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mp4",
+                ".r3d",
+                ".braw"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-10 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-23 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-28 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908532"
+        },
+        "name": "User 59",
+        "email": "user59@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-01-17",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 720.77,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".wav",
+                ".mov",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908533"
+        },
+        "name": "User 60",
+        "email": "user60@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-03-12",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 83.88,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".r3d",
+                ".mp4",
+                ".wav"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-08 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-09 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908534"
+        },
+        "name": "User 61",
+        "email": "user61@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2024-12-25",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 90.89,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "NAS_Archive",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mov",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-27 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-01 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908535"
+        },
+        "name": "User 62",
+        "email": "user62@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-06-30",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 229.35,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "Cloud_Cold_Storage",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".r3d",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-23 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908536"
+        },
+        "name": "User 63",
+        "email": "user63@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-07-25",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 82.02,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "NAS_Archive",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".r3d",
+                ".wav",
+                ".mov"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-13 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-07 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908537"
+        },
+        "name": "User 64",
+        "email": "user64@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-01-16",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 155.63,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".r3d",
+                ".mov"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-19 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-11 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-10 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908538"
+        },
+        "name": "User 65",
+        "email": "user65@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-10-28",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1149.04,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mov",
+                ".braw",
+                ".wav",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-12 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908539"
+        },
+        "name": "User 66",
+        "email": "user66@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-03-14",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1310.26,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "Cloud_Cold_Storage",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mov",
+                ".braw",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-23 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-16 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090853a"
+        },
+        "name": "User 67",
+        "email": "user67@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-04-08",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 255.17,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mxf",
+                ".wav",
+                ".mp4",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-04 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-24 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090853b"
+        },
+        "name": "User 68",
+        "email": "user68@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-06-03",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 261.94,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "Cloud_Cold_Storage",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".braw",
+                ".mov",
+                ".wav"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-09-29 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-21 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-14 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090853c"
+        },
+        "name": "User 69",
+        "email": "user69@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-09-06",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 64.37,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mov",
+                ".wav"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-15 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-15 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090853d"
+        },
+        "name": "User 70",
+        "email": "user70@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-02-18",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 354.99,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".braw",
+                ".mxf",
+                ".wav"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-12 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-06 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-07 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090853e"
+        },
+        "name": "User 71",
+        "email": "user71@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-09-17",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1201.68,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mov",
+                ".mxf",
+                ".mp4",
+                ".wav"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-09 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090853f"
+        },
+        "name": "User 72",
+        "email": "user72@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2024-11-11",
+            "is_active": false
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 191.88,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".braw",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-26 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908540"
+        },
+        "name": "User 73",
+        "email": "user73@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-06-10",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 78.98,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "SSD_Vault_A",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".r3d",
+                ".braw",
+                ".wav",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-08 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908541"
+        },
+        "name": "User 74",
+        "email": "user74@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-01-28",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1556.51,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "Shuttle_Drive_B",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".wav",
+                ".mxf",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-15 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908542"
+        },
+        "name": "User 75",
+        "email": "user75@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-05-04",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 185.33,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mxf",
+                ".braw",
+                ".wav"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-10 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-09 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908543"
+        },
+        "name": "User 76",
+        "email": "user76@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2024-11-30",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 119.23,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "RAID_01",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".braw",
+                ".mov"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-02 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-06 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908544"
+        },
+        "name": "User 77",
+        "email": "user77@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2024-11-07",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 142.35,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "Cloud_Cold_Storage",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mxf",
+                ".wav",
+                ".mov"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-07 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908545"
+        },
+        "name": "User 78",
+        "email": "user78@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-08-11",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 2290.49,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "NAS_Archive",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mp4",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-14 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908546"
+        },
+        "name": "User 79",
+        "email": "user79@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-09-21",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1101.63,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "NAS_Archive",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".wav",
+                ".r3d",
+                ".mp4",
+                ".mov"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-09-29 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-16 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908547"
+        },
+        "name": "User 80",
+        "email": "user80@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2024-11-17",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 509.45,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".braw",
+                ".r3d",
+                ".mov",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-08 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-11 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908548"
+        },
+        "name": "User 81",
+        "email": "user81@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-10-27",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 152.49,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".mxf",
+                ".braw",
+                ".r3d"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-16 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-09-29 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-23 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908549"
+        },
+        "name": "User 82",
+        "email": "user82@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-02-14",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1677.85,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mxf",
+                ".mov",
+                ".mp4",
+                ".wav"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-22 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-16 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090854a"
+        },
+        "name": "User 83",
+        "email": "user83@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-05-02",
+            "is_active": false
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 226.38,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01",
+                "Shuttle_Drive_B",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".r3d",
+                ".mov",
+                ".mxf",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-05 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090854b"
+        },
+        "name": "User 84",
+        "email": "user84@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2025-01-28",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 888.93,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "NAS_Archive",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".braw",
+                ".wav",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-06 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090854c"
+        },
+        "name": "User 85",
+        "email": "user85@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-03-22",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 33.34,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "SSD_Vault_A",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".mov",
+                ".wav",
+                ".r3d",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-17 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090854d"
+        },
+        "name": "User 86",
+        "email": "user86@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-01-01",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 943.18,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mov",
+                ".mxf",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-13 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-13 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "SSD_Vault_A"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090854e"
+        },
+        "name": "User 87",
+        "email": "user87@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-09-14",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 324.02,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Shuttle_Drive_B",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".braw",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-18 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090854f"
+        },
+        "name": "User 88",
+        "email": "user88@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-08-16",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1289.0,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "RAID_01",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mp4",
+                ".wav",
+                ".braw",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-09 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-04 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908550"
+        },
+        "name": "User 89",
+        "email": "user89@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-02-13",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 231.89,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".mxf",
+                ".r3d",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "8192x4320",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-28 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-26 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-21 21:47:14",
+                "metadata": {
+                    "target_format": ".mp4",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908551"
+        },
+        "name": "User 90",
+        "email": "user90@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-08-31",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 215.39,
+            "quota_warning": true
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".mov",
+                ".wav",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-09-29 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908552"
+        },
+        "name": "User 91",
+        "email": "user91@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-02-16",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 2500.0,
+            "used_quota_gb": 1016.38,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mp4",
+                ".mov"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-02 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908553"
+        },
+        "name": "User 92",
+        "email": "user92@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Post-Production",
+            "joined_date": "2025-07-21",
+            "is_active": false
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 52.13,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "Shuttle_Drive_B"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".mp4",
+                ".mov"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Shuttle_Drive_B"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908554"
+        },
+        "name": "User 93",
+        "email": "user93@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-01-16",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 618.81,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".r3d",
+                ".mxf",
+                ".wav",
+                ".braw"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-25 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-01 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908555"
+        },
+        "name": "User 94",
+        "email": "user94@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-06-21",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 363.47,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "SSD_Vault_A",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mov",
+                ".mxf",
+                ".wav",
+                ".braw",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-01 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908556"
+        },
+        "name": "User 95",
+        "email": "user95@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Color Grading",
+            "joined_date": "2025-07-07",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 286.51,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "RAID_01"
+            ],
+            "allowed_formats": [
+                ".mxf",
+                ".wav",
+                ".braw"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-05 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "RAID_01"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-22 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908557"
+        },
+        "name": "User 96",
+        "email": "user96@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-03-17",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 1000.0,
+            "used_quota_gb": 146.85,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "RAID_01",
+                "SSD_Vault_A"
+            ],
+            "allowed_formats": [
+                ".braw",
+                ".r3d",
+                ".mxf",
+                ".wav"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-20 21:47:14",
+                "metadata": {
+                    "target_format": ".mxf",
+                    "target_drive": "SSD_Vault_A"
+                }
+            },
+            {
+                "action": "ARCHIVED",
+                "timestamp": "2026-10-22 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "RAID_01"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908558"
+        },
+        "name": "User 97",
+        "email": "user97@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Sound Design",
+            "joined_date": "2024-10-30",
+            "is_active": false
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 192.77,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "Cloud_Cold_Storage",
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".mp4",
+                ".r3d",
+                ".mov",
+                ".wav",
+                ".mxf"
+            ],
+            "max_allowed_resolution": "1920x1080",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-08 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "EXPORTED",
+                "timestamp": "2026-10-16 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "UPLOADED",
+                "timestamp": "2026-10-22 21:47:14",
+                "metadata": {
+                    "target_format": ".wav",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908559"
+        },
+        "name": "User 98",
+        "email": "user98@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "Cinematography",
+            "joined_date": "2025-07-10",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 360.17,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".mxf",
+                ".mov"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-09-30 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "NAS_Archive"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-10 21:47:14",
+                "metadata": {
+                    "target_format": ".mov",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090855a"
+        },
+        "name": "User 99",
+        "email": "user99@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2024-11-14",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 250.0,
+            "used_quota_gb": 117.13,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive",
+                "SSD_Vault_A",
+                "Cloud_Cold_Storage"
+            ],
+            "allowed_formats": [
+                ".wav",
+                ".braw",
+                ".mxf",
+                ".r3d",
+                ".mp4"
+            ],
+            "max_allowed_resolution": "4096x2160",
+            "can_generate_proxy": false
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-02 21:47:14",
+                "metadata": {
+                    "target_format": ".braw",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            },
+            {
+                "action": "MODIFIED",
+                "timestamp": "2026-10-08 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "Cloud_Cold_Storage"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090855b"
+        },
+        "name": "User 100",
+        "email": "user100@studio.com",
+        "password_hash": "scrypt:32768:8:1$uvg7YLSi7MQQL8ZN$525fc96cd31e548f1d3ce623c281da6a19c840ff7e39ce996e7fecc6aac9e2346f3fdd8cf8e5c77ac9a73357893d84ccd90f4f352270ab9d65f6cdd22721fc43",
+        "role": "Creator",
+        "profile": {
+            "department": "VFX Dept",
+            "joined_date": "2025-07-21",
+            "is_active": true
+        },
+        "storage_metrics": {
+            "max_quota_gb": 500.0,
+            "used_quota_gb": 143.55,
+            "quota_warning": false
+        },
+        "media_permissions": {
+            "assigned_drives": [
+                "NAS_Archive"
+            ],
+            "allowed_formats": [
+                ".r3d",
+                ".wav",
+                ".mxf",
+                ".mov",
+                ".braw"
+            ],
+            "max_allowed_resolution": "3840x2160",
+            "can_generate_proxy": true
+        },
+        "recent_activity": [
+            {
+                "action": "REVIEWED",
+                "timestamp": "2026-10-03 21:47:14",
+                "metadata": {
+                    "target_format": ".r3d",
+                    "target_drive": "NAS_Archive"
+                }
+            }
+        ]
+    }
+]

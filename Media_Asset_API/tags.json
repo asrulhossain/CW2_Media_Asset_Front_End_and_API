@@ -1,0 +1,702 @@
+[
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908494"
+        },
+        "tag_name": "B-Roll",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908495"
+        },
+        "tag_name": "Interview",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908496"
+        },
+        "tag_name": "Drone",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908497"
+        },
+        "tag_name": "Studio",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908498"
+        },
+        "tag_name": "Raw",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e09910908499"
+        },
+        "tag_name": "VFX",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090849a"
+        },
+        "tag_name": "Audio",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090849b"
+        },
+        "tag_name": "Timelapse",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090849c"
+        },
+        "tag_name": "Aerial",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090849d"
+        },
+        "tag_name": "Close-Up",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090849e"
+        },
+        "tag_name": "Wide Shot",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e0991090849f"
+        },
+        "tag_name": "Slow Motion",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a0"
+        },
+        "tag_name": "Green Screen",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a1"
+        },
+        "tag_name": "B-Cam",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a2"
+        },
+        "tag_name": "Establishing Shot",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a3"
+        },
+        "tag_name": "Behind The Scenes",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a4"
+        },
+        "tag_name": "Final Cut",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a5"
+        },
+        "tag_name": "Rough Cut",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a6"
+        },
+        "tag_name": "Color Graded",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a7"
+        },
+        "tag_name": "Sound Mix",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a8"
+        },
+        "tag_name": "Voiceover",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084a9"
+        },
+        "tag_name": "Music",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084aa"
+        },
+        "tag_name": "Archive",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ab"
+        },
+        "tag_name": "Stock",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ac"
+        },
+        "tag_name": "Logo",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ad"
+        },
+        "tag_name": "Title Card",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ae"
+        },
+        "tag_name": "Lower Third",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084af"
+        },
+        "tag_name": "Transition",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b0"
+        },
+        "tag_name": "Reaction",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b1"
+        },
+        "tag_name": "Montage",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b2"
+        },
+        "tag_name": "Dialogue",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b3"
+        },
+        "tag_name": "Action",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b4"
+        },
+        "tag_name": "Night",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b5"
+        },
+        "tag_name": "Day",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b6"
+        },
+        "tag_name": "Handheld",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b7"
+        },
+        "tag_name": "Tripod",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b8"
+        },
+        "tag_name": "Gimbal",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084b9"
+        },
+        "tag_name": "Underwater",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ba"
+        },
+        "tag_name": "Interior",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084bb"
+        },
+        "tag_name": "Exterior",
+        "category": "Content"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084bc"
+        },
+        "tag_name": "London",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084bd"
+        },
+        "tag_name": "Belfast",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084be"
+        },
+        "tag_name": "New York",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084bf"
+        },
+        "tag_name": "Tokyo",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c0"
+        },
+        "tag_name": "Paris",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c1"
+        },
+        "tag_name": "Dublin",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c2"
+        },
+        "tag_name": "Berlin",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c3"
+        },
+        "tag_name": "Madrid",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c4"
+        },
+        "tag_name": "Rome",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c5"
+        },
+        "tag_name": "Sydney",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c6"
+        },
+        "tag_name": "Toronto",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c7"
+        },
+        "tag_name": "Los Angeles",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c8"
+        },
+        "tag_name": "Chicago",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084c9"
+        },
+        "tag_name": "Seoul",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ca"
+        },
+        "tag_name": "Mumbai",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084cb"
+        },
+        "tag_name": "Cairo",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084cc"
+        },
+        "tag_name": "Lisbon",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084cd"
+        },
+        "tag_name": "Oslo",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ce"
+        },
+        "tag_name": "Prague",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084cf"
+        },
+        "tag_name": "Vienna",
+        "category": "Location"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d0"
+        },
+        "tag_name": "English",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d1"
+        },
+        "tag_name": "Spanish",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d2"
+        },
+        "tag_name": "French",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d3"
+        },
+        "tag_name": "Irish",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d4"
+        },
+        "tag_name": "German",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d5"
+        },
+        "tag_name": "Italian",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d6"
+        },
+        "tag_name": "Japanese",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d7"
+        },
+        "tag_name": "Korean",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d8"
+        },
+        "tag_name": "Portuguese",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084d9"
+        },
+        "tag_name": "Arabic",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084da"
+        },
+        "tag_name": "Hindi",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084db"
+        },
+        "tag_name": "Mandarin",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084dc"
+        },
+        "tag_name": "Dutch",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084dd"
+        },
+        "tag_name": "Polish",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084de"
+        },
+        "tag_name": "Swedish",
+        "category": "Language"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084df"
+        },
+        "tag_name": "Kids",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e0"
+        },
+        "tag_name": "Corporate",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e1"
+        },
+        "tag_name": "Social Media",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e2"
+        },
+        "tag_name": "Broadcast",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e3"
+        },
+        "tag_name": "Teens",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e4"
+        },
+        "tag_name": "Adults",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e5"
+        },
+        "tag_name": "Families",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e6"
+        },
+        "tag_name": "Students",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e7"
+        },
+        "tag_name": "Investors",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e8"
+        },
+        "tag_name": "Customers",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084e9"
+        },
+        "tag_name": "Press",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ea"
+        },
+        "tag_name": "Festival",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084eb"
+        },
+        "tag_name": "Cinema",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ec"
+        },
+        "tag_name": "Web",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ed"
+        },
+        "tag_name": "Mobile",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ee"
+        },
+        "tag_name": "TV",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084ef"
+        },
+        "tag_name": "Internal",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f0"
+        },
+        "tag_name": "Public",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f1"
+        },
+        "tag_name": "Premium",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f2"
+        },
+        "tag_name": "Educational",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f3"
+        },
+        "tag_name": "Documentary",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f4"
+        },
+        "tag_name": "Advertising",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f5"
+        },
+        "tag_name": "Training",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f6"
+        },
+        "tag_name": "Event",
+        "category": "Audience"
+    },
+    {
+        "_id": {
+            "$oid": "6ae3bee219c6e099109084f7"
+        },
+        "tag_name": "Promo",
+        "category": "Audience"
+    }
+]
