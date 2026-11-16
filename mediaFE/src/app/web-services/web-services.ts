@@ -38,4 +38,8 @@ export class WebServices {
       this.tokenHeader());
   }
 
+    getAsset(id: any) {
+    return this.http.get<any>(this.baseUrl + '/assets/' + id, this.tokenHeader());
+  }
+
 }              

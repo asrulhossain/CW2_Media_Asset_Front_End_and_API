@@ -16,7 +16,8 @@
     <div class="row">
         @for (asset of asset_list; track $index) {
         <div class="col-sm-4">
-            <div class="card text-white bg-primary mb-3">
+            <div class="card text-white bg-primary mb-3" style="cursor: pointer;"
+                [routerLink]="['/assets', asset._id]">
                 <div class="card-header">{{ asset.filename }}</div>
                 <div class="card-body">
                     <p class="card-text">Format: {{ asset.file_format }}</p>
