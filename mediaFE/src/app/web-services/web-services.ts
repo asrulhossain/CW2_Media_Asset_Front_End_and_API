@@ -28,4 +28,14 @@ export class WebServices {
       this.baseUrl + '/projects?pn=' + page + '&ps=' + this.pageSize, this.tokenHeader());
   }
 
+  getProject(id: any) {
+    return this.http.get<any>(this.baseUrl + '/projects/' + id, this.tokenHeader());
+  }
+
+  getAssets(projectId: any, page: number) {
+    return this.http.get<any[]>(
+      this.baseUrl + '/projects/' + projectId + '/assets?pn=' + page + '&ps=' + this.pageSize,
+      this.tokenHeader());
+  }
+
 }              

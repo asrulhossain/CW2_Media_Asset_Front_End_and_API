@@ -7,7 +7,8 @@
     <div class="row">
         @for (project of project_list; track $index) {
         <div class="col-sm-4">
-            <div class="card text-white bg-primary mb-3">
+            <div class="card text-white bg-primary mb-3" style="cursor: pointer;"
+                [routerLink]="['/projects', project._id]">
                 <div class="card-header">{{ project.title }}</div>
                 <div class="card-body">
                     <p class="card-text">Region: {{ project.target_region }}</p>
