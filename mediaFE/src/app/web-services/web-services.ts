@@ -23,4 +23,9 @@ export class WebServices {
     return this.http.get<any>(this.baseUrl + '/logout', this.tokenHeader());
   }
 
+    getProjects(page: number) {
+    return this.http.get<any[]>(
+      this.baseUrl + '/projects?pn=' + page + '&ps=' + this.pageSize, this.tokenHeader());
+  }
+
 }              

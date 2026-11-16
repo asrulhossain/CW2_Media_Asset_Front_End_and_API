@@ -6,6 +6,11 @@
                 Keep track of your media files, which project they belong to
                 and which drive they are stored on.
             </p>
+            @if (auth.loggedIn()) {
+            <a class="btn btn-primary" [routerLink]="['/projects']">Go to my projects</a>
+            } @else {
+            <a class="btn btn-primary" [routerLink]="['/login']">Login</a>
+            }
         </div>
     </div>
 </div>
